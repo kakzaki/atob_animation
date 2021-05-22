@@ -2,9 +2,10 @@
 
 A to B Flutter package Animation
 
-## Getting Started
+https://github.com/kakzaki/atob_animation/blob/master/gif/untitled.gif
 
 
+## EXAMPLE
 
 
     import 'package:atob_animation/atob_animation.dart';
