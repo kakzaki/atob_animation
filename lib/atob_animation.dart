@@ -13,14 +13,14 @@ class AtoBAnimation extends StatefulWidget {
   final Widget child;
 
   const AtoBAnimation({
-    Key key,
-    @required this.startPosition,
-    @required this.endPosition,
+    Key? key,
+    required this.startPosition,
+    required this.endPosition,
     this.opacity = 1.0,
     this.dxCurveAnimation = 100,
     this.dyCurveAnimation = 250,
     this.duration = const Duration(milliseconds: 1000),
-    @required this.child
+    required this.child
   }) : super(key: key);
 
   @override
@@ -29,10 +29,10 @@ class AtoBAnimation extends StatefulWidget {
 
 class _AtoBAnimationPageState extends State<AtoBAnimation>
     with SingleTickerProviderStateMixin {
-  AnimationController _controller; // Animation controller
-  Animation<double> _animation; // animation
-  double left; // The left of the small dot (dynamic calculation)
-  double top; // Small far point right (dynamic calculation)
+  late AnimationController _controller; // Animation controller
+  late Animation<double> _animation; // animation
+  double? left; // The left of the small dot (dynamic calculation)
+  double? top; // Small far point right (dynamic calculation)
 
   @override
   void initState() {
