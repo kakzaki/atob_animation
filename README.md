@@ -2,11 +2,21 @@
 
 A to B Flutter package Animation
 
-https://github.com/kakzaki/atob_animation/blob/master/gif/untitled.gif
+<img src="https://raw.githubusercontent.com/kakzaki/atob_animation/master/gif/untitled.gif" width="100px" height="100px">
 
 
-## EXAMPLE
+## 🎖 Installing
 
+dependencies:
+  atob_animation: any
+
+### ⚡️Import
+
+
+import 'package:atob_animation/atob_animation.dart';
+
+
+#### EXAMPLE
 
     import 'package:atob_animation/atob_animation.dart';
     import 'package:flutter/material.dart';
