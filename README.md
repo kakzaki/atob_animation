@@ -2,7 +2,7 @@
 
 A to B Flutter package Animation
 
-<img src="https://raw.githubusercontent.com/kakzaki/atob_animation/master/gif/untitled.gif" >
+<img src="https://raw.githubusercontent.com/kakzaki/atob_animation/master/gif/untitled.gif" width="450px">
 
 
 ## 🎖 Installing
